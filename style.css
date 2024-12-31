@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ebe268;
+    text-align: center;
+}
+h1 {
+    color: #ffff;
+    font-size: 12vmin;
+    margin-top: 5rem;
+
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    background-color: #f94144;
+    color: #90be6d;
+    
+
+}
+
+#reset-bt {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:  #f3722c;
+    color:#90be6d;
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font: 800px;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+
+}
+#new-bt{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #90be6d;
+    color: #f3722c;
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font: 800px;
+
+}
+
+#msg{
+    color: #ffff;
+    font-size: 5vmin;
+}
+
+.hide{
+    display: none;;
+}
+
+/* <palette>
+  <color name="Carrot orange" hex="f8961e" r="248" g="150" b="30" />
+  <color name="Zomp" hex="43aa8b" r="67" g="170" b="139" />
+  <color name="Imperial red" hex="f94144" r="249" g="65" b="68" />
+  <color name="Orange (Crayola)" hex="f3722c" r="243" g="114" b="44" />
+  <color name="Pistachio" hex="90be6d" r="144" g="190" b="109" />
+  <color name="Coral" hex="f9844a" r="249" g="132" b="74" />
+  <color name="Dark cyan" hex="4d908e" r="77" g="144" b="142" />
+</palette> */
